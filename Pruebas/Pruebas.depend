@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1455818529 source:c:\users\david\documents\proyectos\prueba\pruebas\prueba.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<iomanip>
+	<math.h>
+
