@@ -5,15 +5,22 @@ using namespace std;
 #include <iomanip>
 #include <math.h>
 
+#include "Clase1.h"
+
 //Prototipos
 string cortar(string);
 
 int main(){
-    string sFrase1;
+    string sFrase1 = "Esto es una prueba.";
     string sFrase2;
-    getline(cin, sFrase1);
     sFrase2 = cortar(sFrase1);
-    cout << sFrase2;
+    cout << sFrase1 << endl;
+    cout << sFrase2 << endl << endl;
+
+    Clase1 cVar(5,12.4);
+    cVar.muestra();
+
+    return 0;
 }
 
 string cortar(string sFra){

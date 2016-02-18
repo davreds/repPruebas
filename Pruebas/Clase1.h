@@ -1,5 +1,7 @@
+#ifndef CLASE1_H_INCLUDED
+#define CLASE1_H_INCLUDED
 
-class Clase1(){
+class Clase1{
     private:
         int param1;
         double param2;
@@ -22,7 +24,7 @@ Clase1::Clase1(){
     param2 = 0;
 }
 
-Clase1::CLase1(int p1, double p2){
+Clase1::Clase1(int p1, double p2){
     param1 = p1;
     param2 = p2;
 }
@@ -46,3 +48,5 @@ void Clase1::setParam2(double p2){
 void Clase1::muestra(){
     cout << "(" << param1 << "),(" << param2 << ")" << endl;
 }
+
+#endif // CLASE2_H_INCLUDED
