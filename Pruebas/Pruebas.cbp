@@ -31,7 +31,11 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Clase1.h" />
 		<Unit filename="Prueba.cpp" />
+		<Unit filename="c2.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<envvars />
