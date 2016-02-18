@@ -16,6 +16,7 @@ int main(){
     cout << sFrase2;
 }
 
+//corta el string si tiene mas de dos palabras.
 string cortar(string sFra){
     int iCont = 0;
     string sFin;
