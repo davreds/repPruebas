@@ -10,6 +10,9 @@ using namespace std;
 //Prototipos
 string cortar(string);
 
+/*
+ * main
+ */
 int main(){
     string sFrase1 = "Esto es una prueba.";
     string sFrase2;
@@ -23,6 +26,9 @@ int main(){
     return 0;
 }
 
+/*
+ * Metodos
+ */
 string cortar(string sFra){
     int iCont = 0;
     string sFin;
